@@ -1,0 +1,166 @@
+form {
+    background-color: #3cbff3;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+form button {
+    padding: 10px;
+    font-size: 25px;
+    background-color: #060061;
+    color: white;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+}
+
+form{
+    width: 500px;
+    text-align: center;
+    margin-left: 320px;
+}
+
+input {
+    padding: 10px;
+    outline: none;
+    border: none;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+h1 {
+    text-align: center;
+}
+
+#allUsers {
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    background-color: #01787c;
+}
+
+#allUsers h3 {
+    color: white;
+    font-family: Verdana, sans-serif;
+}
+
+#allUsers div {
+    margin-bottom: 10px;
+}
+
+#allUsers div input {
+    margin-right: 5px;
+}
+
+#allUsers div input.Supprimer {
+    background-color: red;
+    color: white;
+}
+
+#allUsers div input.Modifier {
+    background-color: yellow;
+}
+ body{
+        background-color: #c40093;
+ }
+img{
+    width: 100%;
+    height: 100%;
+   
+}
+
+
+form {
+    background-color: #880066;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.container{
+    margin: auto;
+    width: 100%;
+    height: 550px;
+}
+
+.container h1{
+    font-weight: bold;
+    color: #fff;
+}
+form button {
+    padding: 10px;
+    font-size: 20px;
+    background-color: #050138;
+    color: white;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+}
+
+input {
+    padding: 10px;
+    outline: none;
+    border: none;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+h1{
+    text-align: center;
+}
+
+#allUsers {
+    margin-top: 20px;
+    padding: 25px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: #920061;
+}
+
+#allUsers h3 {
+    color: white;
+    font-family: Verdana, sans-serif;
+}
+
+#allUsers div {
+    margin-bottom: 10px;
+    margin-left: 50px;
+}
+
+#allUsers div input {
+    margin-right: 5px;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+#allUsers div input.Supprimer {
+    background-color: red;
+    color: white;
+}
+
+#allUsers div input.Modifier {
+    background-color: yellow;
+}
+
+
+@media screen  (max-width: 500px) {
+    form {
+        width: 95%;
+    }
+    #allUsers{
+        width: 95%;
+    }
+     #allUsers input{
+            width: 200px;
+     }
+}
